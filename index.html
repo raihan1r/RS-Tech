@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/5cd0582b14.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -16,9 +17,10 @@
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
     <header>
-        <nav class="container navbar navbar-expand-lg bg-light">
+        <!-- start nabat -->
+        <nav class="container navbar navbar-expand-lg bg-light  mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand fw-bolder" href="#">RS-Tech</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -30,14 +32,14 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#">Success</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
+                            <a class="nav-link ">About</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -47,54 +49,83 @@
                 </div>
             </div>
         </nav>
+        <!-- end navber -->
 
         <!-- strat top bannar -->
-        <section class=" container my-5 ">
+        <section class=" container mb-5 ">
 
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+            <div class="container-fluid p-0">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="as-slide slide-one d-flex justify-content-center align-items-center p-3">
+                                <div class="text-center">
+                                    <h1 class="fw-bold display-4 text-center text-light">
+                                        Get Started
+                                        <span class="as-primary-color">Digital</span> Learning
+                                    </h1>
+                                    <p class="text-light fs-6 mt-3">
+                                        It is a long established fact that a reader will be distracted by the readable
+                                        content of a page when looking at its layout.
+                                        <br class="d-md-block d-none" />
+                                        gain knowledge degitally and buid Awesome Carriear
+                                    </p>
+                                    <button type="button" class="btn btn-light px-3 py-2  fw-bold text-primary">Get
+                                        Started
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="as-slide slide-two d-flex justify-content-center align-items-center">
+                                <div class="text-center">
+                                    <h1 class="fw-bold display-4 text-center text-light">
+                                        Increase Your
+                                        <span class="as-primary-color">Knowledge</span> With US
+                                    </h1>
+                                    <p class="text-light fs-6 mt-3">
+                                        we have some great course you can from anywhery in your time
+                                        and comphort zone. <br class="d-md-block d-none" />
+                                        explore our courses and see witch one is create for you
+                                    </p>
+                                    <button type="button" class="btn btn-light px-3 py-2  fw-bold text-primary">Get
+                                        Started
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="as-slide slide-three d-flex justify-content-center align-items-center p-3">
+                                <div class="text-center">
+                                    <h1 class="fw-bold display-4 text-center text-light">
+                                        Get
+                                        <span class="as-primary-color">Internship</span> Opportunity
+                                    </h1>
+                                    <p class="text-light fs-6 mt-3">
+                                        Finis the Course you like. give your pre design exams
+                                        (online).
+                                        <br class="d-md-block d-none" />
+                                        if you can score more than 70% then you can Upportunity in
+                                        your connected complanys
+                                    </p>
+                                    <button type="button" class="btn btn-light px-3 py-2  fw-bold text-primary">Get
+                                        Started
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="carousel-inner text-center ">
-                    <div class="carousel-item active">
-                        <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-
-                        <div class="carousel-caption d-none d-md-block  align-items-center">
-                            <h1 class="text-warning fs-1 Bold ">Get Started Digital
-                                Learning</h1>
-                            <p>Some representative placeholder content for the first slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
 
         </section>
@@ -103,134 +134,163 @@
     </header>
     <!-- satrat course menus -->
     <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 my-4">
+        <div class="container text-center my-5 fw-bold ">
+            <h1 class="fw-blod">Discover Our Popular <br>
+                Courses
+            </h1>
+            <p style="color:gray;">It is a long established fact that a reader will be distracted by the
+                readable
+                <br> content of a page when looking at its layout.
+            </p>
+        </div>
+        <div class="container  ">
+            <div class="row mx-5">
+                <div class="col-lg-6 col-md-12 col-sm-12 my-4 ">
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
-                            <div class="col-md-4 mt-1 ">
+                            <div class="col-md-4  ">
                                 <img src="images/course/course-1.png" class="w-100 rounded-start" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text" style="color:rgb(46, 44, 44);">This is a wider card with
-                                        supporting text
-                                        below as a natural
-                                        lead-in to
-                                        additional content. This content is a little bit longer.</p>
-
-                                    <button type="button" class="btn btn-primary">Primary</button>
+                                    <h5 class="card-title fw-bolder">Fundamental Of UI/UX Design</h5>
+                                    <p class="card-text" style="color:rgb(46, 44, 44);">Some quick example text to build
+                                        on the card title
+                                        and make up the bulk of the card.</p>
+                                    <h5 class="text-primary">Price : 20$</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 my-4">
+                <div class="col-lg-6 col-md-12 col-sm-12 my-4 ">
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
-                            <div class="col-md-4 mt-1">
+                            <div class="col-md-4  ">
                                 <img src="images/course/course-2.png" class="w-100 rounded-start" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text" style="color:rgb(46, 44, 44)">This is a wider card with
-                                        supporting text
-                                        below as a natural
-                                        lead-in to
-                                        additional content. This content is a little bit longer.</p>
-
-                                    <button type="button" class="btn btn-primary">Primary</button>
+                                    <h5 class="card-title fw-bolder">Javascript Basic to advanced</h5>
+                                    <p class="card-text" style="color:rgb(46, 44, 44);">Some quick example text to build
+                                        on the card title
+                                        and make up the bulk of the card.</p>
+                                    <h5 class="text-primary">Price : 20$</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 my-4">
+                <div class="col-lg-6 col-md-12 col-sm-12 my-4 ">
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
-                            <div class="col-md-4 mt-1">
+                            <div class="col-md-4  ">
                                 <img src="images/course/course-3.png" class="w-100 rounded-start" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text" style="color:rgb(46, 44, 44)">This is a wider card with
-                                        supporting text
-                                        below as a natural
-                                        lead-in to
-                                        additional content. This content is a little bit longer.</p>
-
-                                    <button type="button" class="btn btn-primary">Primary</button>
+                                    <h5 class="card-title fw-bolder">Fullstack Web Development</h5>
+                                    <p class="card-text" style="color:rgb(46, 44, 44);">Some quick example text to build
+                                        on the card title
+                                        and make up the bulk of the card.</p>
+                                    <h5 class="text-primary">Price : 20$</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 my-4">
+                <div class="col-lg-6 col-md-12 col-sm-12 my-4 ">
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
-                            <div class="col-md-4 mt-1">
+                            <div class="col-md-4  ">
                                 <img src="images/course/course-4.png" class="w-100 rounded-start" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text" style="color:rgb(46, 44, 44)">This is a wider card with
-                                        supporting text
-                                        below as a natural
-                                        lead-in to
-                                        additional content. This content is a little bit longer.</p>
-
-                                    <button type="button" class="btn btn-primary">Primary</button>
+                                    <h5 class="card-title fw-bolder">Digital Marketing</h5>
+                                    <p class="card-text" style="color:rgb(46, 44, 44);">Some quick example text to build
+                                        on the card title
+                                        and make up the bulk of the card.</p>
+                                    <h5 class="text-primary">Price : 20$</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 my-4">
+                <div class="col-lg-6 col-md-12 col-sm-12 my-4 ">
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
-                            <div class="col-md-4 mt-1">
+                            <div class="col-md-4  ">
                                 <img src="images/course/course-5.png" class="w-100 rounded-start" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text" style="color:rgb(46, 44, 44);">This is a wider card with
-                                        supporting text
-                                        below as a natural
-                                        lead-in to
-                                        additional content. This content is a little bit longer.</p>
-
-                                    <button type="button" class="btn btn-primary">Primary</button>
+                                    <h5 class="card-title fw-bolder">Photography Basic Rules</h5>
+                                    <p class="card-text" style="color:rgb(46, 44, 44);">Some quick example text to build
+                                        on the card title
+                                        and make up the bulk of the card.</p>
+                                    <h5 class="text-primary">Price : 20$</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 my-4">
+                <div class="col-lg-6 col-md-12 col-sm-12 my-4 ">
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
-                            <div class="col-md-4 mt-1">
+                            <div class="col-md-4  ">
                                 <img src="images/course/course-6.png" class="w-100 rounded-start" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text" style="color:rgb(46, 44, 44);">This is a wider card with
-                                        supporting text
-                                        below as a natural
-                                        lead-in to
-                                        additional content. This content is a little bit longer.</p>
-
-                                    <button type="button" class="btn btn-primary">Primary</button>
+                                    <h5 class="card-title fw-bolder">Motion Graphics</h5>
+                                    <p class="card-text" style="color:rgb(46, 44, 44);">Some quick example text to build
+                                        on the card title
+                                        and make up the bulk of the card.</p>
+                                    <h5 class="text-primary">Price : 20$</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 my-4 ">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4  ">
+                                <img src="images/course/course-8.jpg" class="w-100 rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bolder">Data Science</h5>
+                                    <p class="card-text" style="color:rgb(46, 44, 44);">Some quick example text to build
+                                        on the card title
+                                        and make up the bulk of the card.</p>
+                                    <h5 class="text-primary">Price : 20$</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 my-4 ">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4  ">
+                                <img src="images/course/course-7.jpg" class="w-100 rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bolder"> Search engine optimization</h5>
+                                    <p class="card-text" style="color:rgb(46, 44, 44);">Some quick example text to build
+                                        on the card title
+                                        and make up the bulk of the card.</p>
+                                    <h5 class="text-primary">Price : 20$</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ======================== -->
+
             </div>
         </div>
         <div class="container ">
@@ -246,18 +306,22 @@
                 <div class="card mb-3" style="width: auto;">
                     <div class="row g-0">
                         <div class="col-sm-12 col-md-12 col-lg-6">
-                            <img src="images/working.png" class=" img-fluid rounded-start" alt="...">
+                            <img src="images/working.png" class=" w-100 rounded-start" alt="...">
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-6  text-center row align-items-center "
                             style="background-color: #F4FAFD;">
                             <div class="card-body ">
-                                <h1 class="card-title">Second slide label</h1>
+                                <h1 class="card-title fw-bold">Explore The elearning
+                                    Institute</h1>
                                 <p class="card-text" style="color:gray;">There are many variations of passages of Lorem
-                                    Ipsum available, but
-                                    the
+                                    Ipsum available, but the
                                     majority have suffered alteration in some form, by injected humour, or
                                     randomised words which don't look even slightly believable. If you are going
-                                    to use a passage of Lorem Ipsum, you need to be sure.</p>
+                                    to use a passage , you need to be sure.</p>
+
+
+                                <p> Anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+                                    generators on the Internet tend to repeat predefined.</p>
                                 <div class="d-flex  justify-content-center ">
                                     <div class="me-3">
                                         <h1>3.2k</h1>
@@ -284,10 +348,10 @@
         <!-- end eating manu -->
 
         <!-- strat bar manu -->
-        <div class="container bg-primary my-5 p-5 ">
+        <div class="container bg-primary my-5 p-5 rounded">
             <div class="row">
                 <div class="col text-light">
-                    <h1>Ready to join?</h1>
+                    <h1 class="fw-bolder">Ready to join?</h1>
                     <p>It is a long established fact that a reader will be distracted by the
                         readable content of a page when looking at its layout</p>
                 </div>
@@ -299,7 +363,7 @@
         <!-- end bar menu -->
         <!-- start anouther menus -->
         <div class="container text-center mb-5   ">
-            <h1 class=" p-4 ">Meet Our Successfull
+            <h1 class=" p-4 fw-bolder ">Meet Our Successfull
                 Students</h1>
             <p style="color:gray;">
                 It is a long established fact that a reader will be distracted by the
@@ -369,8 +433,8 @@
         <!-- ====================================? -->
         <!-- student feedback -->
         <div class="container ">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-6 border rounded p-4 my-4">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-12 col-lg-5 border rounded p-4 my-4 me-3">
                     <div class="row ">
                         <div class="col-7">
                             <img src="images/comma.png" alt="">
@@ -403,7 +467,8 @@
                                 class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                 class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
                     </div>
-                    <p style="color:gray;">There are many variations of passages of Lorem Ipsum available, but
+                    <p class="py-4" style="color:gray;">There are many variations of passages of Lorem Ipsum available,
+                        but
                         the majority have suffered alteration in some form, by injected
                         humour, or randomised words which don't look even slightly
                         believable. If you are going to use a passage of Lorem.</p>
@@ -421,7 +486,7 @@
         </div>
 
         <!-- +++++++++++++++++++++++++++++++++++++++++ -->
-        <div class="container text-bold text-center">
+        <div class="container text-bold text-center mb-5">
             <h1>Frequently Asked Questions</h1>
             <p style="color:gray;">It is a long established fact that a reader will be distracted by the readable
                 content of a page when looking at its layout.</p>
@@ -515,15 +580,26 @@
 
     <!-- strat footer -->
     <footer>
-        <div class="container bg-dark text-light text-center p-4">
+        <div class=" bg-dark text-light text-center p-4">
             <h1>RS-Tech</h1>
             <p style="color:gray;">Office 41, Zawaya Buildin, Ghala Muscat,
 
                 <br> Sultanate of Oman <br>
                 Privacy Ploicy | Terms of use
             </p>
+            <div class="d-flex justify-content-center p5">
+                <div class="m-4"><i class="fa-brands fa-whatsapp"></i></div>
+                <div class="m-4"><i class="fa-brands fa-facebook"></i></div>
+                <div class="m-4">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="m-4"><i class="fa-brands fa-square-instagram"></i></div>
+            </div>
+            <p class="text-centar fw-lighter " style="color: gray;"><small>© 2022 RS-Tech
+                    Foundation//raihan</small></p>
 
         </div>
+
     </footer>
     <!-- end footer -->
 

@@ -1,0 +1,38 @@
+/* bannaer */
+.as-slide {
+    min-height: 80vh;
+    position: relative;
+    z-index: 1;
+}
+
+.slide-one {
+    background: url(../images/cover/cover-1.png) no-repeat left top;
+    background-size: cover;
+}
+
+.slide-two {
+    background: url(../images/cover/cover-2.jpg) no-repeat left top;
+    background-size: cover;
+}
+
+.slide-three {
+    background: url(../images/cover/cover-3.jpg) no-repeat right top;
+    background-size: cover;
+}
+
+.as-slide::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #0b1120de;
+    z-index: -1;
+}
+
+.as-arrow {
+    height: 40px;
+    width: 40px;
+    line-height: 10px;
+}
