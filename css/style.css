@@ -1,6 +1,6 @@
 /* bannaer */
 .as-slide {
-    min-height: 80vh;
+    min-height: 45vh;
     position: relative;
     z-index: 1;
 }
@@ -29,10 +29,5 @@
     width: 100%;
     background: #0b1120de;
     z-index: -1;
-}
 
-.as-arrow {
-    height: 40px;
-    width: 40px;
-    line-height: 10px;
 }
